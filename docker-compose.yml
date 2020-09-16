@@ -1,0 +1,11 @@
+version: "3"
+
+volumes:
+  log:
+
+services:
+  healthcheck:
+    build:
+      context: .
+    volumes:
+      - log:/var/log/cron

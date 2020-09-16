@@ -1,1 +1,1 @@
-*/15 * * * * sh /script.sh https://example.com >> /var/log/cron.log 2>&1
+* * * * * sh /script.sh https://example.com >> /var/log/cron/cron.log 2>&1
